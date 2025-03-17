@@ -18,7 +18,7 @@ export const InputField = () => {
     const inputRef = useRef()
     return (
         <div className='flex justify-center items-center py-6 mx-auto '>
-            <input type="text" ref={inputRef} className='border w-full outline-0 p-2 rounded' />
+            <input type="text" ref={inputRef} placeholder="e.g. complete the assignment" className='border w-full outline-0 p-2 rounded' />
             <button onClick={handleClick} className='rounded p-2 ml-4 w-36 bg-slate-900 text-white'>Add Task</button>
         </div>
     )
